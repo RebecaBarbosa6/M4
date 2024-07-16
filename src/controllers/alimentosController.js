@@ -1,7 +1,8 @@
+// src/controllers/alimentosController.js
 
-const { alimentos, desperdicio } = require('../models/alimentos');
+import { alimentos, desperdicio } from '../models/alimentos.js';
 
-exports.listarAlimentosProximosValidade = (req, res) => {
+export const listarAlimentosProximosValidade = (req, res) => {
     const dataAtual = new Date();
     const alimentosValidadeProxima = alimentos.filter(alimento => {
         const dataValidade = new Date(alimento.validade);
@@ -11,7 +12,7 @@ exports.listarAlimentosProximosValidade = (req, res) => {
     res.json(alimentosValidadeProxima);
 };
 
-exports.registrarDesperdicio = (req, res) => {
+export const registrarDesperdicio = (req, res) => {
     const { id, quantidade } = req.query;
     const alimento = alimentos.find(alimento => alimento.id == id);
     if (alimento) {
@@ -21,7 +22,7 @@ exports.registrarDesperdicio = (req, res) => {
     res.json({ desperdicio, alimentos });
 };
 
-exports.sugerirReceitas = (req, res) => {
+export const sugerirReceitas = (req, res) => {
     const receitas = [
         { nome: 'Salada de Tomate', ingredientes: ['Tomate', 'Azeite', 'Sal'] },
         { nome: 'Vitamina de Banana', ingredientes: ['Banana', 'Leite'] },

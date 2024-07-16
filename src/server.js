@@ -1,8 +1,9 @@
 
-const express = require('express');
+import express from 'express';
+import alimentosRoutes from './routes/alimentosRoutes.js';
+
 const app = express();
 const port = 3000;
-const alimentosRoutes = require('./routes/alimentosRoutes');
 
 app.use('/', alimentosRoutes);
 

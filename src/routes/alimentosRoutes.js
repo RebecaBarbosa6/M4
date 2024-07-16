@@ -1,10 +1,10 @@
 
-const express = require('express');
+import express from 'express';
 const router = express.Router();
-const alimentosController = require('../controllers/alimentosController');
+import { listarAlimentosProximosValidade, registrarDesperdicio, sugerirReceitas } from '../controllers/alimentosController.js';
 
-router.get('/alimentos/validade-proxima', alimentosController.listarAlimentosProximosValidade);
-router.get('/alimentos/desperdicio', alimentosController.registrarDesperdicio);
-router.get('/receitas/sugestoes', alimentosController.sugerirReceitas);
+router.get('/alimentos/validade-proxima', listarAlimentosProximosValidade);
+router.get('/alimentos/desperdicio', registrarDesperdicio);
+router.get('/receitas/sugestoes', sugerirReceitas);
 
-module.exports = router;
+export default router;
