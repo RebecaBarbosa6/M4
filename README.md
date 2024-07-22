@@ -6,7 +6,7 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 **Solução:**
 
-- Desenvolvemos uma API simples e utilitária que ajuda a monitorar e gerenciar alimentos próximos ao vencimento, registrar desperdício e sugerir receitas para utilizar alimentos disponíveis.
+- Desenvolvi uma API simples e utilitária que ajuda a monitorar e gerenciar alimentos próximos ao vencimento, registrar desperdício e sugerir receitas para utilizar alimentos disponíveis.
 - A API fornece informações em tempo real sobre os alimentos, permitindo ações proativas para reduzir o desperdício.
 
 ---
@@ -21,14 +21,14 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 **Desenvolvimento:**
 
 - **Modelagem dos Dados:**
-    - Criamos um modelo para representar os alimentos e desperdícios usando arrays.
+    - Criei um modelo para representar os alimentos e desperdícios usando arrays.
 - **Desenvolvimento da API:**
     - Implementamos três rotas GET:
         - `/alimentos/validade-proxima`: Lista alimentos próximos da validade.
         - `/alimentos/desperdicio`: Registra a quantidade de alimentos desperdiçados.
         - `/receitas/sugestoes`: Sugere receitas baseadas nos alimentos disponíveis.
 - **Testes:**
-    - Realizamos testes manuais usando o Postman para garantir que todas as rotas funcionam corretamente e retornam as informações esperadas.
+    - Foram realizados testes manuais usando o Postman para garantir que todas as rotas funcionam corretamente e retornam as informações esperadas.
 
 **Implementação:**
 
@@ -41,7 +41,7 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 **Sistema:**
 
-- A API é um sistema backend que pode ser integrado com aplicativos web e móveis, oferecendo informações valiosas para reduzir o desperdício de alimentos.
+- A API é um sistema backend que pode ser integrado com aplicativos web e móveis, oferecendo informações para reduzir o desperdício de alimentos.
 - Estrutura em padrão MVC (Model-View-Controller) para facilitar a manutenção e escalabilidade.
 
 **Utilidade:**
@@ -66,4 +66,4 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 ### **Conclusão**
 
-- Essa API pode ser uma  ferramenta eficaz e prática para combater o desperdício de alimentos no Brasil.Através de funcionalidades simples, permite um gerenciamento eficiente dos alimentos, promovendo o consumo consciente e sustentável.Estou comprometida em continuar aprimorando a API, adicionando novas funcionalidades e integrando com outras soluções para maximizar seu impacto positivo.
+- Essa API pode ser uma  ferramenta eficaz e prática para combater o desperdício de alimentos na nossa sociedade,através de funcionalidades simples, permite um gerenciamento eficiente dos alimentos, promovendo o consumo consciente e sustentável.Estou comprometida em continuar aprimorando a API, adicionando novas funcionalidades e integrando com outras soluções para maximizar seu impacto positivo.
