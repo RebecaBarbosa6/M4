@@ -2,7 +2,7 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 **Problema:**
 
-- Como sabemos,O Brasil enfrenta um grande desafio relacionado ao desperdício de alimentos, com toneladas de alimentos sendo desperdiçados diariamente.O desperdício de alimentos não só impacta a economia, mas também agrava questões ambientais e sociais, como a fome e a insegurança alimentar.
+- Como sabemos,o Brasil enfrenta um grande desafio relacionado ao desperdício de alimentos, com toneladas de alimentos sendo desperdiçados diariamente.O desperdício de alimentos não só impacta a economia, mas também agrava questões ambientais e sociais, como a fome e a insegurança alimentar.
 
 **Solução:**
 
@@ -11,7 +11,7 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 ---
 
-### **2. Processo de Elaboração da Solução**
+### ** Processo de Elaboração da Solução**
 
 **Planejamento:**
 
@@ -37,7 +37,7 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 ---
 
-### **3. Apresentação do Sistema e Sua Utilidade**
+### ** Apresentação do Sistema e Sua Utilidade**
 
 **Sistema:**
 
