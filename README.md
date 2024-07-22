@@ -11,7 +11,7 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 ---
 
-### ** Processo de Elaboração da Solução**
+### **Processo de Elaboração da Solução**
 
 **Planejamento:**
 
@@ -37,7 +37,7 @@ No módulo 3 do #programadores do amanhã desenvolvi dois diagramas (conceitual 
 
 ---
 
-### ** Apresentação do Sistema e Sua Utilidade**
+### **Apresentação do Sistema e Sua Utilidade**
 
 **Sistema:**
 
